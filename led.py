@@ -1,4 +1,4 @@
-from machine import Pin
+﻿from machine import Pin
 import utime
 
 led = Pin(17, Pin.OUT)
@@ -11,5 +11,3 @@ while True:
         utime.sleep(2)
         led.value(0)
         print("led off")
-
-
